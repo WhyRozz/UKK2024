@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap'); 
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(blue,yellow);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.main {
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+.text-value {
+    width: 225px;
+    padding: 25px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background: #303136;
+    font-size: 20px;
+    font-weight: 600;
+    color: #29a8ff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.result {
+    width: 135px;
+    background-color: #29a8ff;
+    color: white;
+}
+
+.result:hover {
+    background-color: #15972b;
+    color: black;
+    transition: 0.2s;
+    transition-delay: 0.3s;
+}
+
+.operator {
+    background-color: #29a8ff;
+    color: white;
+}
+
+.CC:hover {
+    color: white;
+    transition: 0.2s;
+    transition-delay: 0.3s;
+    background-color: #29a8ff;
+}
+
+.operator:hover {
+    background-color: #15972b;
+    color: black;
+    transition: 0.2s;
+    transition-delay: 0.3s;
+}
